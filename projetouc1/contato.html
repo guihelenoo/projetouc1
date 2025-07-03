@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projetouc1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+                <!--Cabeçalho-->
+
+<header class="header">
+    <nav class="nav">
+        <div class="nav-logo">
+            <h1>✈️ Explorando o mundo</h1>
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Incio</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+            <li><a href="conversor.html" class="nav-link">Conversor</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+            
+    </nav>
+
+    </header>
+                        <!--Conversor de Moedas-->
+    <section class="section-conversor">
+        
+        <div class="form">
+            <label for="valor">Valor em reais (R$)</label>
+            <input type="number" id="valor" placeholder="Digite um valor">
+        </div>
+        <div class="form">
+            <label for="moeda-label">Converter para:</label>
+            <select name="" id="moeda">
+                <option value="USD">Dolar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra (GBP)</option>
+            </select>
+
+            <button onclick="converter()">Converter</button>
+            
+            <div id="resultado"></div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
